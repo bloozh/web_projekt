@@ -1,0 +1,256 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans";
+}
+
+header {
+		background: black;
+}
+.banner {
+	height: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
+/* navigation bar*/
+
+nav ul {
+  background: #7E7C7C;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #f2f2f2;
+  width: 100px;
+  display: block;
+  padding: 15px;
+  font-size: 17px;
+  transition : 0.2s;
+}
+
+nav a:hover {
+  background:#921AC0;
+  transition: 0.2s;
+}
+
+
+h1 {
+	margin-left: 20px;
+}
+
+
+#container {
+	padding: 10px 25px;
+	overflow: hidden;
+}
+
+/* rings css */
+
+#container img {
+	margin-right: 15px;
+	float: left;
+}
+#container h3 {
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+	font-size: 2em;
+}
+#container p{
+	font-size: 16px;
+	margin-left: 15px;
+	display: block;
+	margin: 2px 0 0 0;
+}
+/* rings slike container */
+#container2 {
+	text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px 25px;
+}
+
+.ringpics {
+  margin: 0 auto;
+  width: 180px;
+	display: inline-block;
+}
+
+.ringpics:hover {
+  border: 1px solid #777;
+}
+
+.ringpics img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* video container*/
+
+#container3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	padding: 10px 25px;
+}
+
+.home {
+	padding-left: 25px;
+	padding-top: 25px;
+	font-size: 1.5em;
+}
+
+.title {
+	padding-left: 25px;
+	padding-top: 25px;
+	font-size: 1.5em;
+}
+
+
+
+/* forms */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* video */
+.section {
+  width: 33%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
+}
+
+/* Social media css*/
+
+.fa {
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* footer */
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 40px;
+	bottom: 0px;
+	position: relative;
+}
+
+footer p{
+	display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+
+
+/*gallery*/
+
+
+figure.fotoalbum {
+	float: left;
+	width: 30%;
+	margin: 25px;
+	text-align: center;
+	display: block;
+}
+
+.description {
+	background-color:#580986;
+	color: white;
+	text-align: center;
+	opacity: 0.4;
+	font-size: 1.6em;
+	padding: 1px;
+	font-style: normal;
+}
+
+.slikice {
+	width: 100%;
+}
+
+/* gallery footer*/
+
+.gfooter {
+	width: 100%;
+	text-align: center;
+	background-color:#000000;
+	color: white;
+	height: 40px;
+	position: fixed;
+}
+
